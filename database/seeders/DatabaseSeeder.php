@@ -13,7 +13,6 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // Call the BookSeeder
         $this->call(BookSeeder::class);
     }
 }
